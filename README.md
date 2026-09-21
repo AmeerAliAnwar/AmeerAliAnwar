@@ -50,22 +50,23 @@ Command-line interface for Google Colab environments.
 
 ### Selected Projects
 
-| Project | Description | Stack |
+| <nobr>Project</nobr> | Description | <nobr>Stack</nobr> |
 | :--- | :--- | :--- |
-| **[chrome-use](https://github.com/AmeerAliAnwar/chrome-use)** | Headless and headed browser control daemon for AI agents with CDP protocol support. | Rust, CDP, WebSockets |
-| **[audiobard](https://github.com/AmeerAliAnwar/audiobard)** | Local audiobook generation suite supporting FOSS TTS backends and cloud voice synthesis. | Python, FastAPI, Desktop GUI |
-| **[freellmapi](https://github.com/AmeerAliAnwar/freellmapi)** | High-throughput OpenAI-compatible proxy routing requests across free-tier provider pools. | TypeScript, Node.js, HTTP Proxy |
-| **[Promptimal](https://github.com/AmeerAliAnwar/Promptimal)** | Programmatic prompt testing and optimization framework for large language models. | TypeScript, LLM APIs |
+| <nobr>**[chrome-use](https://github.com/AmeerAliAnwar/chrome-use)**</nobr> | Headless and headed browser control daemon for AI agents with CDP protocol support. | Rust, CDP, WebSockets |
+| <nobr>**[audiobard](https://github.com/AmeerAliAnwar/audiobard)**</nobr> | Local audiobook generation suite supporting FOSS TTS backends and cloud voice synthesis. | Python, FastAPI, Desktop GUI |
+| <nobr>**[freellmapi](https://github.com/AmeerAliAnwar/freellmapi)**</nobr> | High-throughput OpenAI-compatible proxy routing requests across free-tier provider pools. | TypeScript, Node.js, HTTP Proxy |
+| <nobr>**[Promptimal](https://github.com/AmeerAliAnwar/Promptimal)**</nobr> | Programmatic prompt testing and optimization framework for large language models. | TypeScript, LLM APIs |
 
 ---
 
 ### Verified Upstream PR Feed
 
 <!-- PR_FEED_START -->
-- [leeguooooo/chrome-use#338](https://github.com/leeguooooo/chrome-use/pull/338): fix(cli): repair CI and clippy lint errors in actions.rs
-- [leeguooooo/chrome-use#331](https://github.com/leeguooooo/chrome-use/pull/331): fix(cli): repair CI, rustfmt, borrow errors, and core MCP tool contract
-- [oscarbol09/audiobard#93](https://github.com/oscarbol09/audiobard/pull/93): feat(api,gui): respect user-configured output folder in Desktop GUI and API
-- [googlecolab/google-colab-cli#85](https://github.com/googlecolab/google-colab-cli/pull/85): Add native Windows support
+- [leeguooooo/chrome-use#338](https://github.com/leeguooooo/chrome-use/pull/338): fix(cli,ext): deduplicate tab switch resync, foreign tab adoption hint, and timer settle in tab duplicate
+- [leeguooooo/chrome-use#331](https://github.com/leeguooooo/chrome-use/pull/331): fix(cli): repair CI : rustfmt, borrow errors, and core MCP tool contract
+- [leeguooooo/chrome-use#334](https://github.com/leeguooooo/chrome-use/pull/334): feat(actions,cli): multi-tab concurrency isolation, tab switch alias, and background compositor wake-up
+- [leeguooooo/chrome-use#329](https://github.com/leeguooooo/chrome-use/pull/329): feat(agent,perf,ext): agent base64 screenshots, eliminate background tab paint delay, and harden multi-profile relay
+- [leeguooooo/chrome-use#328](https://github.com/leeguooooo/chrome-use/pull/328): fix(click,ext): enable trusted coordinate clicks on relay and prune dead sessionTargets on tab removal
 <!-- PR_FEED_END -->
 
 ---
