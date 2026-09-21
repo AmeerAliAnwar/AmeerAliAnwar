@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="term-header" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#21262d" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .term-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; fill: #c9d1d9; }
+    .term-dim { fill: #8b949e; }
+    .term-prompt { fill: #58a6ff; font-weight: 600; }
+    .term-cmd { fill: #f0f6fc; font-weight: 600; }
+    .term-ok { fill: #3fb950; font-weight: 600; }
+    .term-info { fill: #79c0ff; }
+    .term-accent { fill: #d2a8ff; }
+    .term-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #8b949e; font-weight: 500; }
+  </style>
+
+  <rect width="880" height="320" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <path d="M 0 8 Q 0 0 8 0 L 872 0 Q 880 0 880 8 L 880 36 L 0 36 Z" fill="url(#term-header)" stroke="#30363d" stroke-width="1" />
+  
+  <circle cx="20" cy="18" r="5" fill="#f85149" />
+  <circle cx="36" cy="18" r="5" fill="#d29922" />
+  <circle cx="52" cy="18" r="5" fill="#238636" />
+  <text x="440" y="22" text-anchor="middle" class="term-title">chrome-use: native cdp session manager (isolated tabs)</text>
+
+  <g transform="translate(24, 60)">
+    <text x="0" y="0" class="term-text">
+      <tspan class="term-prompt">user@engine</tspan><tspan class="term-dim">:</tspan><tspan class="term-info">~/workspace</tspan><tspan class="term-dim">$</tspan>
+      <tspan class="term-cmd"> chrome-use --browser agent-host-1 --tools all daemon</tspan>
+    </text>
+
+    <text x="0" y="24" class="term-text">
+      <tspan class="term-dim">[09:18:02.104]</tspan> <tspan class="term-info">INFO</tspan> <tspan class="term-accent">daemon::init</tspan>: native host listening on 127.0.0.1:55866
+    </text>
+
+    <text x="0" y="44" class="term-text">
+      <tspan class="term-dim">[09:18:02.148]</tspan> <tspan class="term-info">INFO</tspan> <tspan class="term-accent">cdp::connect</tspan>: attached to chromium process (pid=14208, engine=chrome)
+    </text>
+
+    <text x="0" y="68" class="term-text">
+      <tspan class="term-dim">[09:18:02.215]</tspan> <tspan class="term-ok">DISC</tspan> <tspan class="term-accent">tab::register</tspan>: tab_id=101 target_id="74E2B1A8" title="Research Portal" (active)
+    </text>
+
+    <text x="0" y="88" class="term-text">
+      <tspan class="term-dim">[09:18:02.340]</tspan> <tspan class="term-ok">DISC</tspan> <tspan class="term-accent">tab::register</tspan>: tab_id=102 target_id="9B84F01C" title="Console Monitor" (background)
+    </text>
+
+    <text x="0" y="112" class="term-text">
+      <tspan class="term-prompt">agent@rpc</tspan><tspan class="term-dim">:</tspan> <tspan class="term-cmd">chrome_use_tabs</tspan> action="switch_tab" target_tab_id=102
+    </text>
+
+    <text x="0" y="132" class="term-text">
+      <tspan class="term-dim">[09:18:02.490]</tspan> <tspan class="term-info">INFO</tspan> <tspan class="term-accent">context::switch</tspan>: target mapped -> "9B84F01C" (session switched in 1.4ms)
+    </text>
+
+    <text x="0" y="152" class="term-text">
+      <tspan class="term-dim">[09:18:02.610]</tspan> <tspan class="term-info">INFO</tspan> <tspan class="term-accent">dom::snapshot</tspan>: parsed 64 interactive accessibility refs with zero drops
+    </text>
+
+    <text x="0" y="180" class="term-text">
+      <tspan class="term-ok">STATUS</tspan> <tspan class="term-dim">|</tspan> active_tabs: 2 <tspan class="term-dim">|</tspan> dropped_frames: 0 <tspan class="term-dim">|</tspan> avg_latency: 2.8ms <tspan class="term-dim">|</tspan> memory: 12.4 MB
+    </text>
+
+    <text x="0" y="210" class="term-text">
+      <tspan class="term-prompt">user@engine</tspan><tspan class="term-dim">:</tspan><tspan class="term-info">~/workspace</tspan><tspan class="term-dim">$</tspan> <tspan fill="#58a6ff">_</tspan>
+    </text>
+  </g>
+</svg>

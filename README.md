@@ -1,6 +1,22 @@
 # Ameer Ali Anwar
 
-Systems and software engineer based in Lahore, Pakistan. Specializing in autonomous agent runtimes, Chrome DevTools Protocol (CDP) tooling, and distributed inference infrastructure.
+Systems and software engineer based in Lahore, Pakistan. Specializing in autonomous agent runtimes, Chrome DevTools Protocol (CDP) orchestration, and distributed inference infrastructure.
+
+---
+
+### Runtime Architecture
+
+<p align="center">
+  <img src="assets/architecture.svg" alt="Autonomous Agent Runtime Architecture" width="100%">
+</p>
+
+---
+
+### Active Execution Trace
+
+<p align="center">
+  <img src="assets/terminal.svg" alt="chrome-use Runtime Execution Trace" width="100%">
+</p>
 
 ---
 
@@ -18,7 +34,7 @@ Systems and software engineer based in Lahore, Pakistan. Specializing in autonom
 Browser automation CLI and MCP server built in Rust for autonomous AI agents.
 - Engineered multi-tab concurrency isolation and active tab session state tracking across parallel browser profiles.
 - Implemented target navigation and CDP relay synchronization in native browser actions.
-- Repaired CI pipelines, resolving rustfmt lints, borrow checker errors, and MCP tool profiles.
+- Repaired CI pipelines, resolving rustfmt lints, borrow checker errors, and MCP tool contracts.
 
 #### [oscarbol09/audiobard](https://github.com/oscarbol09/audiobard)
 Local-first, multi-voice audiobook synthesis engine with desktop GUI and CLI runtimes.
@@ -40,6 +56,17 @@ Command-line interface for Google Colab environments.
 | **[audiobard](https://github.com/AmeerAliAnwar/audiobard)** | Local audiobook generation suite supporting FOSS TTS backends and cloud voice synthesis. | Python, FastAPI, Desktop GUI |
 | **[freellmapi](https://github.com/AmeerAliAnwar/freellmapi)** | High-throughput OpenAI-compatible proxy routing requests across free-tier provider pools. | TypeScript, Node.js, HTTP Proxy |
 | **[Promptimal](https://github.com/AmeerAliAnwar/Promptimal)** | Programmatic prompt testing and optimization framework for large language models. | TypeScript, LLM APIs |
+
+---
+
+### Verified Upstream PR Feed
+
+<!-- PR_FEED_START -->
+- [leeguooooo/chrome-use#338](https://github.com/leeguooooo/chrome-use/pull/338): fix(cli): repair CI and clippy lint errors in actions.rs
+- [leeguooooo/chrome-use#331](https://github.com/leeguooooo/chrome-use/pull/331): fix(cli): repair CI, rustfmt, borrow errors, and core MCP tool contract
+- [oscarbol09/audiobard#93](https://github.com/oscarbol09/audiobard/pull/93): feat(api,gui): respect user-configured output folder in Desktop GUI and API
+- [googlecolab/google-colab-cli#85](https://github.com/googlecolab/google-colab-cli/pull/85): Add native Windows support
+<!-- PR_FEED_END -->
 
 ---
 
