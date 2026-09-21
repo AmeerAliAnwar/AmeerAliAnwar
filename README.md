@@ -48,14 +48,19 @@ Command-line interface for Google Colab environments.
 
 ---
 
-### Selected Projects
+### Selected Systems
 
-| <nobr>Project</nobr> | Description | <nobr>Stack</nobr> |
-| :--- | :--- | :--- |
-| <nobr>**[chrome-use](https://github.com/AmeerAliAnwar/chrome-use)**</nobr> | Headless and headed browser control daemon for AI agents with CDP protocol support. | Rust, CDP, WebSockets |
-| <nobr>**[audiobard](https://github.com/AmeerAliAnwar/audiobard)**</nobr> | Local audiobook generation suite supporting FOSS TTS backends and cloud voice synthesis. | Python, FastAPI, Desktop GUI |
-| <nobr>**[freellmapi](https://github.com/AmeerAliAnwar/freellmapi)**</nobr> | High-throughput OpenAI-compatible proxy routing requests across free-tier provider pools. | TypeScript, Node.js, HTTP Proxy |
-| <nobr>**[Promptimal](https://github.com/AmeerAliAnwar/Promptimal)**</nobr> | Programmatic prompt testing and optimization framework for large language models. | TypeScript, LLM APIs |
+- **[chrome-use](https://github.com/AmeerAliAnwar/chrome-use)** (`Rust`, `CDP`, `WebSockets`)
+  Headless and headed browser control daemon for AI agents with CDP protocol support.
+
+- **[audiobard](https://github.com/AmeerAliAnwar/audiobard)** (`Python`, `FastAPI`, `Desktop GUI`)
+  Local audiobook generation suite supporting FOSS TTS backends and cloud voice synthesis.
+
+- **[freellmapi](https://github.com/AmeerAliAnwar/freellmapi)** (`TypeScript`, `Node.js`, `HTTP Proxy`)
+  High-throughput OpenAI-compatible proxy routing requests across free-tier provider pools.
+
+- **[Promptimal](https://github.com/AmeerAliAnwar/Promptimal)** (`TypeScript`, `LLM APIs`)
+  Programmatic prompt testing and optimization framework for large language models.
 
 ---
 
