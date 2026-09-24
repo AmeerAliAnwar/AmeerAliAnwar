@@ -67,11 +67,11 @@ Command-line interface for Google Colab environments.
 ### Verified Upstream PR Feed
 
 <!-- PR_FEED_START -->
+- [leeguooooo/chrome-use#342](https://github.com/leeguooooo/chrome-use/pull/342): perf(ext): eliminate CDP event flooding, reduce artificial sleeps, and add batch execution
 - [leeguooooo/chrome-use#338](https://github.com/leeguooooo/chrome-use/pull/338): fix(cli,ext): deduplicate tab switch resync, foreign tab adoption hint, and timer settle in tab duplicate
 - [leeguooooo/chrome-use#331](https://github.com/leeguooooo/chrome-use/pull/331): fix(cli): repair CI : rustfmt, borrow errors, and core MCP tool contract
 - [leeguooooo/chrome-use#334](https://github.com/leeguooooo/chrome-use/pull/334): feat(actions,cli): multi-tab concurrency isolation, tab switch alias, and background compositor wake-up
 - [leeguooooo/chrome-use#329](https://github.com/leeguooooo/chrome-use/pull/329): feat(agent,perf,ext): agent base64 screenshots, eliminate background tab paint delay, and harden multi-profile relay
-- [leeguooooo/chrome-use#328](https://github.com/leeguooooo/chrome-use/pull/328): fix(click,ext): enable trusted coordinate clicks on relay and prune dead sessionTargets on tab removal
 <!-- PR_FEED_END -->
 
 ---
