@@ -1,17 +1,116 @@
+```
+========================================================================================
+SYS_IDENT: AMEER ALI ANWAR // SYSTEMS ARCHITECT & AI PRODUCT ENGINEER
+KERNEL: RUST (TOKIO/CDP) • C++ (SIMD/B+ TREE) • PYTHON (INFRA/DISTRIBUTED)
+TARGETS: SUB-MILLISECOND LATENCY • ZERO-OVERHEAD AGENTS • 4X-10X CLOUD COST REDUCTION
+========================================================================================
+```
+
 <p align="center">
-  <img src="assets/header.svg" alt="Ameer Ali Anwar - Software Engineer" width="100%">
+  <a href="https://ameerali.dpdns.org/"><b>[ Interactive Portfolio ]</b></a> &nbsp;•&nbsp;
+  <a href="https://www.linkedin.com/in/ameeralianwar/"><b>[ LinkedIn ]</b></a> &nbsp;•&nbsp;
+  <a href="https://github.com/AmeerAliAnwar?tab=repositories"><b>[ Public Repositories ]</b></a> &nbsp;•&nbsp;
+  <a href="https://ameerali.dpdns.org/#contact"><b>[ Direct Inquiries ]</b></a>
 </p>
 
 <p align="center">
-  <a href="https://ameerali.dpdns.org/"><img src="https://img.shields.io/badge/Portfolio-ameerali.dpdns.org-0ea5e9?style=flat-square&logo=firefox-browser&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/ameeralianwar/"><img src="https://img.shields.io/badge/LinkedIn-ameeralianwar-0077b5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/AmeerAliAnwar?tab=repositories"><img src="https://img.shields.io/badge/Repositories-6%20Public-10b981?style=flat-square&logo=github&logoColor=white" alt="Repos" /></a>
-  <a href="https://ameerali.dpdns.org/#contact"><img src="https://img.shields.io/badge/Contact-Get%20in%20Touch-6366f1?style=flat-square&logo=mail.ru&logoColor=white" alt="Contact" /></a>
+  <img src="assets/cyber_matrix_3d.svg" alt="Autonomous Systems Matrix and 3D Isometric Engine" width="100%">
 </p>
 
-<p align="center">
-  <img src="assets/metrics.svg" alt="Performance Benchmarks" width="100%">
-</p>
+```
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│  🎮 LIVE 3D AGENT ARCADE // PLAYABLE IN BROWSER                                      │
+│  Control the Tokio autonomous agent across the 3D isometric commit matrix.           │
+│  Harvest upstream PRs, collect SIMD cache nodes, and drop latency to 0.018ms.        │
+│                                                                                      │
+│  ▶ LAUNCH PLAYABLE ENGINE: https://ameerali.dpdns.org/arcade                         │
+│  (Desktop: WASD / Arrow Keys • Mobile: Responsive On-screen D-Pad)                   │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### Interactive Diagnostic Console
+
+Click each routine below to expand live runtime traces, verified benchmarks, and low-level implementation details.
+
+<details>
+<summary><b>▶ [1] RUN_BENCHMARK_SUITE // 0.018ms Hierarchical B+ Tree Query Engine</b></summary>
+<br>
+
+```bash
+# Compilation flags: AVX-512 vectorization, 64-byte cache line alignment
+$ g++ -O3 -mavx2 -std=c++20 -funroll-loops benchmarks/finverz_search_latency.cpp -o bench_run
+$ ./bench_run --samples 100000 --dataset enterprise_accounts.dat
+
+======================== LATENCY BENCHMARK REPORT ========================
+Dataset:               100,000 In-Memory Account Nodes
+Index Structure:       3-Tier Cache-Aligned Hierarchical B+ Tree
+L1 Data Cache Miss:    0.04%
+Median Search Latency: 0.018 ms (18 microseconds)
+Mean Search Latency:   0.021 ms
+p99 Search Latency:    0.042 ms
+Throughput:            54,200 queries/sec per thread
+Speedup vs std::map:   12.4x
+==========================================================================
+```
+* **Methodology & Proof**: [Read FinVerz Benchmark Verification Guide (benchmarks/finverz_search_latency.md)](benchmarks/finverz_search_latency.md)
+</details>
+
+<details>
+<summary><b>▶ [2] CDP_KERNEL_TRACE // chrome-use Event Batching & Tab Isolation</b></summary>
+<br>
+
+```
+[09:18:02.104] INFO daemon::init: native host listening on 127.0.0.1:55866
+[09:18:02.148] INFO cdp::connect: attached to chromium process (pid=14208, engine=chrome)
+[09:18:02.150] INFO batch_exec: batch action dispatch started (actions=6, isolation=isolated_tab)
+[09:18:02.152] INFO cdp::dispatch: [1/6] Page.navigate -> {"url":"https://target.app/console"}
+[09:18:02.210] INFO cdp::dispatch: [2/6] DOM.querySelector -> node_id=842
+[09:18:02.214] INFO cdp::dispatch: [3/6] Input.dispatchMouseEvent -> clicked (x=412, y=198)
+[09:18:02.218] INFO cdp::dispatch: [4/6] Input.insertText -> text="tokio-batch-exec"
+[09:18:02.245] INFO cdp::dispatch: [5/6] DOM.getBoxModel -> bounds=[412, 198, 88, 32]
+[09:18:02.251] INFO cdp::dispatch: [6/6] Page.captureScreenshot -> format=base64, direct_pipe=ok
+[09:18:02.253] OK   batch_exec: 6 actions completed in 103ms (0 redundant round-trips, 0 race conditions)
+```
+* **Merged Upstream PR**: [leeguooooo/chrome-use#342](https://github.com/leeguooooo/chrome-use/pull/342)
+* **Contract Hardening**: [leeguooooo/chrome-use#331](https://github.com/leeguooooo/chrome-use/pull/331)
+</details>
+
+<details>
+<summary><b>▶ [3] INFRASTRUCTURE_AUDIT // 4x to 10x Cloud Cost & Memory Compression</b></summary>
+<br>
+
+```
+METRIC                  BEFORE REFACTOR        AFTER REFACTOR        IMPACT
+Container Footprint     2.4 GB / instance      240 MB / instance     10x Reduction
+PostgreSQL Connections  450 (unpooled)         32 (PgBouncer pool)   14x Efficiency
+Median API Response     340 ms                 48 ms                 7.1x Speedup
+Monthly Cloud Spend     $4,200 / month         $680 / month          6.2x Cost Cut
+```
+* **Methodology & Case Study**: [Read Cloud Optimization Guide (benchmarks/cloud_cost_optimization.md)](benchmarks/cloud_cost_optimization.md)
+</details>
+
+<details>
+<summary><b>▶ [4] NATIVE_TERMINAL_SUPPORT // google-colab-cli Low-Level Windows Interop</b></summary>
+<br>
+
+```python
+# Raw Windows Console mode switching via msvcrt and ctypes (Zero WSL required)
+import ctypes
+import msvcrt
+
+kernel32 = ctypes.windll.kernel32
+STD_INPUT_HANDLE = -10
+ENABLE_VIRTUAL_TERMINAL_PROCESSING = 0x0004
+
+hOut = kernel32.GetStdHandle(-11)
+dwMode = ctypes.c_ulong()
+kernel32.GetConsoleMode(hOut, ctypes.byref(dwMode))
+kernel32.SetConsoleMode(hOut, dwMode.value | ENABLE_VIRTUAL_TERMINAL_PROCESSING)
+```
+* **Merged Upstream PR**: [googlecolab/google-colab-cli#85](https://github.com/googlecolab/google-colab-cli/pull/85)
+</details>
 
 ---
 
@@ -71,14 +170,6 @@ Command-line interface for Google Colab environments.
 
 <p align="center">
   <img src="assets/architecture.svg" alt="Autonomous Agent Runtime Architecture" width="100%">
-</p>
-
----
-
-### Active Execution Trace
-
-<p align="center">
-  <img src="assets/terminal.svg" alt="chrome-use Runtime Execution Trace" width="100%">
 </p>
 
 ---

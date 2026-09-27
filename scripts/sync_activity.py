@@ -27,7 +27,7 @@ def main():
     lines = []
     for pr in prs:
         repo = pr["repository_url"].split("/repos/")[-1]
-        title = pr["title"].replace("—", ":").replace("--", "-")
+        title = pr["title"].replace("\u2014", ":").replace("\u2013", "-").replace("--", "-")
         lines.append(f"- [{repo}#{pr['number']}]({pr['html_url']}): {title}")
 
     pr_block = "\n".join(lines)
