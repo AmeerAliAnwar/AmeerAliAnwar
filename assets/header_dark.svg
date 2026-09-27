@@ -35,12 +35,12 @@
   <g transform="translate(24, 114)">
     <path id="pdark_0">
       <animate id="d0" attributeName="d" begin="0s;d4.end" dur="3.6s" fill="remove"
-        values="m0,0 h0 ; m0,0 h391 ; m0,0 h391 ; m0,0 h0"
+        values="m0,0 h0 ; m0,0 h427 ; m0,0 h427 ; m0,0 h0"
         keyTimes="0; 0.45; 0.85; 1" />
     </path>
     <text class="mono" font-size="13" font-weight="500" fill="#8b949e">
       <textPath xlink:href="#pdark_0">
-        Systems Architect & AI Product Engineer
+        Systems Architect &amp; AI Product Engineer
       </textPath>
     </text>
     <path id="pdark_1">
@@ -65,12 +65,12 @@
     </text>
     <path id="pdark_3">
       <animate id="d3" attributeName="d" begin="d2.end" dur="3.6s" fill="remove"
-        values="m0,0 h0 ; m0,0 h445 ; m0,0 h445 ; m0,0 h0"
+        values="m0,0 h0 ; m0,0 h463 ; m0,0 h463 ; m0,0 h0"
         keyTimes="0; 0.45; 0.85; 1" />
     </path>
     <text class="mono" font-size="13" font-weight="500" fill="#8b949e">
       <textPath xlink:href="#pdark_3">
-        4x to 10x Cloud Compute & Memory Optimization
+        4x to 10x Cloud Compute and Memory Optimization
       </textPath>
     </text>
     <path id="pdark_4">

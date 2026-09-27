@@ -37,10 +37,10 @@ def generate_header(output_path, theme="dark"):
     height = 140
 
     lines = [
-        "Systems Architect & AI Product Engineer",
+        "Systems Architect &amp; AI Product Engineer",
         "13 Merged Upstream PRs: chrome-use, audiobard, colab-cli",
         "0.018ms Hierarchical B+ Tree Engine (FinVerz C++)",
-        "4x to 10x Cloud Compute & Memory Optimization",
+        "4x to 10x Cloud Compute and Memory Optimization",
         "Linear O(N) PCM Audio Buffer Concatenation (audiobard)"
     ]
 
@@ -225,9 +225,9 @@ def generate_telemetry(output_path, theme="dark"):
         {
             "tag": "INFRASTRUCTURE",
             "title": "Cloud Optimizer",
-            "lang": "Docker / Pg",
+            "lang": "Docker / PostgreSQL",
             "metric": "4x to 10x",
-            "detail": "Compute & Memory Cuts",
+            "detail": "Compute and Memory Cuts",
             "bar": 90,
             "bar_col": bar_fill_1
         }

@@ -89,7 +89,7 @@
     
     <!-- Tag & Lang -->
     <text x="14" y="22" class="mono" font-size="9" font-weight="700" fill="#79c0ff" letter-spacing="0.8">INFRASTRUCTURE</text>
-    <text x="182" y="22" text-anchor="end" class="mono" font-size="9.5" font-weight="600" fill="#8b949e">Docker / Pg</text>
+    <text x="182" y="22" text-anchor="end" class="mono" font-size="9.5" font-weight="600" fill="#8b949e">Docker / PostgreSQL</text>
     
     <!-- Main Title -->
     <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#f0f6fc">Cloud Optimizer</text>
@@ -98,7 +98,7 @@
     <text x="14" y="82" class="mono" font-size="20" font-weight="800" fill="#f0f6fc">4x to 10x</text>
     
     <!-- Subtitle Detail -->
-    <text x="14" y="106" class="sans" font-size="10.5" font-weight="500" fill="#8b949e">Compute & Memory Cuts</text>
+    <text x="14" y="106" class="sans" font-size="10.5" font-weight="500" fill="#8b949e">Compute and Memory Cuts</text>
     
     <!-- Animated Progress Track -->
     <rect x="14" y="132" width="168" height="5" rx="2.5" fill="#21262d" />
