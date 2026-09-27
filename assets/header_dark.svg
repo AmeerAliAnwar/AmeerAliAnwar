@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 140" width="100%" height="100%" fill="none">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes pulse-dot {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.15); }
+      }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+      .cursor { animation: blink 0.9s infinite; }
+      .pulse { animation: pulse-dot 2.5s infinite ease-in-out; transform-origin: center; }
+    </style>
+  </defs>
+  <!-- Outer Container (Transparent Fill) -->
+  <rect x="1" y="1" width="878" height="138" rx="8" fill="none" stroke="#30363d" stroke-width="1" />
+  <!-- Top Status Bar -->
+  <g transform="translate(24, 28)">
+    <circle cx="5" cy="5" r="4" fill="#3fb950" />
+    <circle cx="5" cy="5" r="7" fill="none" stroke="#3fb950" stroke-width="1" class="pulse" />
+    <text x="22" y="9" class="mono" font-size="11" font-weight="600" fill="#8b949e" letter-spacing="1">SYSTEMS CORE: ACTIVE</text>
+    <text x="200" y="9" class="mono" font-size="11" font-weight="600" fill="#58a6ff">// 13 MERGED UPSTREAM PRs</text>
+    <text x="440" y="9" class="mono" font-size="11" font-weight="600" fill="#8b949e">// LATENCY: 0.018ms</text>
+    <text x="640" y="9" class="mono" font-size="11" font-weight="600" fill="#8b949e">// CLOUD: 4x-10x CUTS</text>
+  </g>
+  <line x1="24" y1="46" x2="856" y2="46" stroke="#30363d" stroke-width="0.8" />
+  <!-- Name Header -->
+  <g transform="translate(24, 82)">
+    <text class="sans" font-size="26" font-weight="800" fill="#f0f6fc" letter-spacing="-0.5">Ameer Ali Anwar</text>
+  </g>
+  <!-- Kinetic Typing Subtitle Deck -->
+  <g transform="translate(24, 114)">
+    <path id="pdark_0">
+      <animate id="d0" attributeName="d" begin="0s;d4.end" dur="3.6s" fill="remove"
+        values="m0,0 h0 ; m0,0 h391 ; m0,0 h391 ; m0,0 h0"
+        keyTimes="0; 0.45; 0.85; 1" />
+    </path>
+    <text class="mono" font-size="13" font-weight="500" fill="#8b949e">
+      <textPath xlink:href="#pdark_0">
+        Systems Architect & AI Product Engineer
+      </textPath>
+    </text>
+    <path id="pdark_1">
+      <animate id="d1" attributeName="d" begin="d0.end" dur="3.6s" fill="remove"
+        values="m0,0 h0 ; m0,0 h544 ; m0,0 h544 ; m0,0 h0"
+        keyTimes="0; 0.45; 0.85; 1" />
+    </path>
+    <text class="mono" font-size="13" font-weight="500" fill="#8b949e">
+      <textPath xlink:href="#pdark_1">
+        13 Merged Upstream PRs: chrome-use, audiobard, colab-cli
+      </textPath>
+    </text>
+    <path id="pdark_2">
+      <animate id="d2" attributeName="d" begin="d1.end" dur="3.6s" fill="remove"
+        values="m0,0 h0 ; m0,0 h481 ; m0,0 h481 ; m0,0 h0"
+        keyTimes="0; 0.45; 0.85; 1" />
+    </path>
+    <text class="mono" font-size="13" font-weight="500" fill="#8b949e">
+      <textPath xlink:href="#pdark_2">
+        0.018ms Hierarchical B+ Tree Engine (FinVerz C++)
+      </textPath>
+    </text>
+    <path id="pdark_3">
+      <animate id="d3" attributeName="d" begin="d2.end" dur="3.6s" fill="remove"
+        values="m0,0 h0 ; m0,0 h445 ; m0,0 h445 ; m0,0 h0"
+        keyTimes="0; 0.45; 0.85; 1" />
+    </path>
+    <text class="mono" font-size="13" font-weight="500" fill="#8b949e">
+      <textPath xlink:href="#pdark_3">
+        4x to 10x Cloud Compute & Memory Optimization
+      </textPath>
+    </text>
+    <path id="pdark_4">
+      <animate id="d4" attributeName="d" begin="d3.end" dur="3.6s" fill="remove"
+        values="m0,0 h0 ; m0,0 h526 ; m0,0 h526 ; m0,0 h0"
+        keyTimes="0; 0.45; 0.85; 1" />
+    </path>
+    <text class="mono" font-size="13" font-weight="500" fill="#8b949e">
+      <textPath xlink:href="#pdark_4">
+        Linear O(N) PCM Audio Buffer Concatenation (audiobard)
+      </textPath>
+    </text>
+    <text x="0" y="0" class="mono cursor" font-size="14" font-weight="700" fill="#58a6ff" dx="4">_</text>
+  </g>
+</svg>

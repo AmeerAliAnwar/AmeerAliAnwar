@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="100%" height="100%" fill="none">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+      @keyframes fill-bar {
+        0% { width: 0; }
+        100% { width: 100%; }
+      }
+      @keyframes pulse-subtle {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1.0; }
+      }
+      .bar-anim { animation: fill-bar 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .live-pulse { animation: pulse-subtle 2s infinite ease-in-out; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="878" height="238" rx="8" fill="none" stroke="#d0d7de" stroke-width="1" />
+  <g transform="translate(20, 24)">
+    <text class="sans" font-size="11" font-weight="700" fill="#656d76" letter-spacing="1">VERIFIED PRODUCTION TELEMETRY // REAL-TIME METRICS</text>
+  </g>
+  <line x1="20" y1="36" x2="860" y2="36" stroke="#d0d7de" stroke-width="0.8" />
+  <!-- Metric Card 1: chrome-use -->
+  <g transform="translate(20, 52)">
+    <rect width="196" height="166" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+    
+    <!-- Tag & Lang -->
+    <text x="14" y="22" class="mono" font-size="9" font-weight="700" fill="#0969da" letter-spacing="0.8">UPSTREAM RUNTIME</text>
+    <text x="182" y="22" text-anchor="end" class="mono" font-size="9.5" font-weight="600" fill="#656d76">Rust</text>
+    
+    <!-- Main Title -->
+    <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#1f2328">chrome-use</text>
+    
+    <!-- Primary Metric -->
+    <text x="14" y="82" class="mono" font-size="20" font-weight="800" fill="#1f2328">7 Merged PRs</text>
+    
+    <!-- Subtitle Detail -->
+    <text x="14" y="106" class="sans" font-size="10.5" font-weight="500" fill="#656d76">CDP Batch Exec / 0ms Sleep</text>
+    
+    <!-- Animated Progress Track -->
+    <rect x="14" y="132" width="168" height="5" rx="2.5" fill="#eaeef2" />
+    <rect x="14" y="132" width="154.56" height="5" rx="2.5" fill="#1a7f37" class="live-pulse" />
+  </g>
+  <!-- Metric Card 2: FinVerz Engine -->
+  <g transform="translate(234, 52)">
+    <rect width="196" height="166" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+    
+    <!-- Tag & Lang -->
+    <text x="14" y="22" class="mono" font-size="9" font-weight="700" fill="#0969da" letter-spacing="0.8">ALGORITHM CORE</text>
+    <text x="182" y="22" text-anchor="end" class="mono" font-size="9.5" font-weight="600" fill="#656d76">C++</text>
+    
+    <!-- Main Title -->
+    <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#1f2328">FinVerz Engine</text>
+    
+    <!-- Primary Metric -->
+    <text x="14" y="82" class="mono" font-size="20" font-weight="800" fill="#1f2328">0.018ms</text>
+    
+    <!-- Subtitle Detail -->
+    <text x="14" y="106" class="sans" font-size="10.5" font-weight="500" fill="#656d76">Median SIMD B+ Tree Search</text>
+    
+    <!-- Animated Progress Track -->
+    <rect x="14" y="132" width="168" height="5" rx="2.5" fill="#eaeef2" />
+    <rect x="14" y="132" width="164.64" height="5" rx="2.5" fill="#0969da" class="live-pulse" />
+  </g>
+  <!-- Metric Card 3: audiobard -->
+  <g transform="translate(448, 52)">
+    <rect width="196" height="166" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+    
+    <!-- Tag & Lang -->
+    <text x="14" y="22" class="mono" font-size="9" font-weight="700" fill="#0969da" letter-spacing="0.8">AUDIO STREAMING</text>
+    <text x="182" y="22" text-anchor="end" class="mono" font-size="9.5" font-weight="600" fill="#656d76">Python / C</text>
+    
+    <!-- Main Title -->
+    <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#1f2328">audiobard</text>
+    
+    <!-- Primary Metric -->
+    <text x="14" y="82" class="mono" font-size="20" font-weight="800" fill="#1f2328">3 Merged PRs</text>
+    
+    <!-- Subtitle Detail -->
+    <text x="14" y="106" class="sans" font-size="10.5" font-weight="500" fill="#656d76">O(N) Linear PCM Copy</text>
+    
+    <!-- Animated Progress Track -->
+    <rect x="14" y="132" width="168" height="5" rx="2.5" fill="#eaeef2" />
+    <rect x="14" y="132" width="147.84" height="5" rx="2.5" fill="#8250df" class="live-pulse" />
+  </g>
+  <!-- Metric Card 4: Cloud Optimizer -->
+  <g transform="translate(662, 52)">
+    <rect width="196" height="166" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+    
+    <!-- Tag & Lang -->
+    <text x="14" y="22" class="mono" font-size="9" font-weight="700" fill="#0969da" letter-spacing="0.8">INFRASTRUCTURE</text>
+    <text x="182" y="22" text-anchor="end" class="mono" font-size="9.5" font-weight="600" fill="#656d76">Docker / Pg</text>
+    
+    <!-- Main Title -->
+    <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#1f2328">Cloud Optimizer</text>
+    
+    <!-- Primary Metric -->
+    <text x="14" y="82" class="mono" font-size="20" font-weight="800" fill="#1f2328">4x to 10x</text>
+    
+    <!-- Subtitle Detail -->
+    <text x="14" y="106" class="sans" font-size="10.5" font-weight="500" fill="#656d76">Compute & Memory Cuts</text>
+    
+    <!-- Animated Progress Track -->
+    <rect x="14" y="132" width="168" height="5" rx="2.5" fill="#eaeef2" />
+    <rect x="14" y="132" width="151.20000000000002" height="5" rx="2.5" fill="#1a7f37" class="live-pulse" />
+  </g>
+</svg>
