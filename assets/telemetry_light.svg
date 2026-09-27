@@ -88,8 +88,8 @@
     <rect width="196" height="166" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
     
     <!-- Tag & Lang -->
-    <text x="14" y="22" class="mono" font-size="9" font-weight="700" fill="#0969da" letter-spacing="0.8">INFRASTRUCTURE</text>
-    <text x="182" y="22" text-anchor="end" class="mono" font-size="9.5" font-weight="600" fill="#656d76">Docker / PostgreSQL</text>
+    <text x="14" y="22" class="mono" font-size="9" font-weight="700" fill="#0969da" letter-spacing="0.8">CLOUD INFRA</text>
+    <text x="182" y="22" text-anchor="end" class="mono" font-size="9.5" font-weight="600" fill="#656d76">Docker / SQL</text>
     
     <!-- Main Title -->
     <text x="14" y="48" class="sans" font-size="14" font-weight="700" fill="#1f2328">Cloud Optimizer</text>

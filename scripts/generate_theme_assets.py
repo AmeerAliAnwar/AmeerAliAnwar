@@ -223,9 +223,9 @@ def generate_telemetry(output_path, theme="dark"):
             "bar_col": bar_fill_3
         },
         {
-            "tag": "INFRASTRUCTURE",
+            "tag": "CLOUD INFRA",
             "title": "Cloud Optimizer",
-            "lang": "Docker / PostgreSQL",
+            "lang": "Docker / SQL",
             "metric": "4x to 10x",
             "detail": "Compute and Memory Cuts",
             "bar": 90,
