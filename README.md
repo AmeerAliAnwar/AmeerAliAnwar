@@ -57,11 +57,6 @@ Command-line interface for Google Colab environments.
 - [leeguooooo/chrome-use#331](https://github.com/leeguooooo/chrome-use/pull/331): fix(cli): repair CI : rustfmt, borrow errors, and core MCP tool contract
 - [leeguooooo/chrome-use#334](https://github.com/leeguooooo/chrome-use/pull/334): feat(actions,cli): multi-tab concurrency isolation, tab switch alias, and background compositor wake-up
 - [leeguooooo/chrome-use#329](https://github.com/leeguooooo/chrome-use/pull/329): feat(agent,perf,ext): agent base64 screenshots, eliminate background tab paint delay, and harden multi-profile relay
-- [leeguooooo/chrome-use#328](https://github.com/leeguooooo/chrome-use/pull/328): fix(click,ext): enable trusted coordinate clicks on relay and prune dead sessionTargets on tab removal
-- [leeguooooo/chrome-use#330](https://github.com/leeguooooo/chrome-use/pull/330): feat(cli,mcp,ext): concurrent multi-tab workflows, --new-tab navigation flag, and tab targeting
-- [oscarbol09/audiobard#104](https://github.com/oscarbol09/audiobard/pull/104): feat(api,gui): respect user-configured output folder in Desktop GUI and API
-- [oscarbol09/audiobard#103](https://github.com/oscarbol09/audiobard/pull/103): fix(api): persist uploaded books to prevent regeneration 409 conflict
-- [oscarbol09/audiobard#102](https://github.com/oscarbol09/audiobard/pull/102): perf(audio): optimize clip concatenation to linear O(N) PCM buffer copy
 <!-- PR_FEED_END -->
 
 ---
