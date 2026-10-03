@@ -52,11 +52,11 @@ Command-line interface for Google Colab environments.
 ### Verified Upstream PR Feed
 
 <!-- PR_FEED_START -->
-- [oscarbol09/audiobard#114](https://github.com/oscarbol09/audiobard/pull/114): feat: comprehensive community issue resolution batch (issues #16, #61, #64, #66, #67, #93, #108, #109, #110, #111, #112, #113)
-- [leeguooooo/chrome-use#342](https://github.com/leeguooooo/chrome-use/pull/342): perf(ext): eliminate CDP event flooding, reduce artificial sleeps, and add batch execution
-- [leeguooooo/chrome-use#338](https://github.com/leeguooooo/chrome-use/pull/338): fix(cli,ext): deduplicate tab switch resync, foreign tab adoption hint, and timer settle in tab duplicate
-- [leeguooooo/chrome-use#331](https://github.com/leeguooooo/chrome-use/pull/331): fix(cli): repair CI : rustfmt, borrow errors, and core MCP tool contract
-- [leeguooooo/chrome-use#334](https://github.com/leeguooooo/chrome-use/pull/334): feat(actions,cli): multi-tab concurrency isolation, tab switch alias, and background compositor wake-up
+- [josdejong/lossless-json#284](https://github.com/josdejong/lossless-json/pull/284): fix: reject a number without an integer part
+- [josdejong/lossless-json#286](https://github.com/josdejong/lossless-json/pull/286): fix: let a reviver delete an array element as a real hole
+- [josdejong/lossless-json#282](https://github.com/josdejong/lossless-json/pull/282): fix: de-duplicate an array replacer so it cannot emit duplicate keys
+- [josdejong/lossless-json#280](https://github.com/josdejong/lossless-json/pull/280): fix: never emit a literal `undefined` in stringify output
+- [josdejong/lossless-json#276](https://github.com/josdejong/lossless-json/pull/276): fix: store a `__proto__` key as an own property
 <!-- PR_FEED_END -->
 
 ---
