@@ -52,11 +52,11 @@ Command-line interface for Google Colab environments.
 ### Verified Upstream PR Feed
 
 <!-- PR_FEED_START -->
+- [leeguooooo/chrome-use#422](https://github.com/leeguooooo/chrome-use/pull/422): fix(connect): resolve per-profile relay URL for adopt and enforce profile session binding (#400, #403)
+- [leeguooooo/chrome-use#421](https://github.com/leeguooooo/chrome-use/pull/421): fix(connection): recover immediately from daemon socket drop without 5-retry loop (#401)
 - [josdejong/lossless-json#284](https://github.com/josdejong/lossless-json/pull/284): fix: reject a number without an integer part
 - [josdejong/lossless-json#286](https://github.com/josdejong/lossless-json/pull/286): fix: let a reviver delete an array element as a real hole
 - [josdejong/lossless-json#282](https://github.com/josdejong/lossless-json/pull/282): fix: de-duplicate an array replacer so it cannot emit duplicate keys
-- [josdejong/lossless-json#280](https://github.com/josdejong/lossless-json/pull/280): fix: never emit a literal `undefined` in stringify output
-- [josdejong/lossless-json#276](https://github.com/josdejong/lossless-json/pull/276): fix: store a `__proto__` key as an own property
 <!-- PR_FEED_END -->
 
 ---
