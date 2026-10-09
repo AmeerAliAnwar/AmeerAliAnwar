@@ -52,11 +52,11 @@ Command-line interface for Google Colab environments.
 ### Verified Upstream PR Feed
 
 <!-- PR_FEED_START -->
-- [leeguooooo/chrome-use#422](https://github.com/leeguooooo/chrome-use/pull/422): fix(connect): resolve per-profile relay URL for adopt and enforce profile session binding (#400, #403)
-- [leeguooooo/chrome-use#421](https://github.com/leeguooooo/chrome-use/pull/421): fix(connection): recover immediately from daemon socket drop without 5-retry loop (#401)
-- [josdejong/lossless-json#284](https://github.com/josdejong/lossless-json/pull/284): fix: reject a number without an integer part
-- [josdejong/lossless-json#286](https://github.com/josdejong/lossless-json/pull/286): fix: let a reviver delete an array element as a real hole
-- [josdejong/lossless-json#282](https://github.com/josdejong/lossless-json/pull/282): fix: de-duplicate an array replacer so it cannot emit duplicate keys
+- [leeguooooo/chrome-use#467](https://github.com/leeguooooo/chrome-use/pull/467): fix(npm): drop defunct binary download and align install guidance
+- [leeguooooo/chrome-use#465](https://github.com/leeguooooo/chrome-use/pull/465): fix(extension): remove unused approved sites allowlist card from options page
+- [leeguooooo/chrome-use#464](https://github.com/leeguooooo/chrome-use/pull/464): fix(skills): remove unquoted colon in real-chrome frontmatter and add CI validator
+- [leeguooooo/chrome-use#463](https://github.com/leeguooooo/chrome-use/pull/463): fix(daemon): clarify AGENT_BROWSER_STATE_EXPIRE_DAYS help text as opt-in (#426)
+- [leeguooooo/chrome-use#462](https://github.com/leeguooooo/chrome-use/pull/462): docs(env): remove unused AGENT_BROWSER_HOME from command reference and docs (#427)
 <!-- PR_FEED_END -->
 
 ---
