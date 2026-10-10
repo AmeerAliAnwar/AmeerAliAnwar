@@ -52,11 +52,11 @@ Command-line interface for Google Colab environments.
 ### Verified Upstream PR Feed
 
 <!-- PR_FEED_START -->
+- [leeguooooo/chatgpt-use#15](https://github.com/leeguooooo/chatgpt-use/pull/15): fix(composer): modernize ChatGPT submit button selectors and add Enter key fallback (#14)
 - [leeguooooo/chrome-use#467](https://github.com/leeguooooo/chrome-use/pull/467): fix(npm): drop defunct binary download and align install guidance
 - [leeguooooo/chrome-use#465](https://github.com/leeguooooo/chrome-use/pull/465): fix(extension): remove unused approved sites allowlist card from options page
 - [leeguooooo/chrome-use#464](https://github.com/leeguooooo/chrome-use/pull/464): fix(skills): remove unquoted colon in real-chrome frontmatter and add CI validator
 - [leeguooooo/chrome-use#463](https://github.com/leeguooooo/chrome-use/pull/463): fix(daemon): clarify AGENT_BROWSER_STATE_EXPIRE_DAYS help text as opt-in (#426)
-- [leeguooooo/chrome-use#462](https://github.com/leeguooooo/chrome-use/pull/462): docs(env): remove unused AGENT_BROWSER_HOME from command reference and docs (#427)
 <!-- PR_FEED_END -->
 
 ---
