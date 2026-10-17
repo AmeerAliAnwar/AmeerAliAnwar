@@ -52,11 +52,11 @@ Command-line interface for Google Colab environments.
 ### Verified Upstream PR Feed
 
 <!-- PR_FEED_START -->
+- [josdejong/lossless-json#276](https://github.com/josdejong/lossless-json/pull/276): fix: store a `__proto__` key as an own property
+- [josdejong/lossless-json#284](https://github.com/josdejong/lossless-json/pull/284): fix: reject a number without an integer part
+- [josdejong/lossless-json#280](https://github.com/josdejong/lossless-json/pull/280): fix: never emit a literal `undefined` in stringify output
+- [josdejong/lossless-json#286](https://github.com/josdejong/lossless-json/pull/286): fix: let a reviver delete an array element as a real hole
 - [josdejong/lossless-json#278](https://github.com/josdejong/lossless-json/pull/278): fix: cap the stringify space at 10 and treat values below 1 as no indentation
-- [leeguooooo/chatgpt-use#15](https://github.com/leeguooooo/chatgpt-use/pull/15): fix(composer): modernize ChatGPT submit button selectors and add Enter key fallback (#14)
-- [leeguooooo/chrome-use#467](https://github.com/leeguooooo/chrome-use/pull/467): fix(npm): drop defunct binary download and align install guidance
-- [leeguooooo/chrome-use#465](https://github.com/leeguooooo/chrome-use/pull/465): fix(extension): remove unused approved sites allowlist card from options page
-- [leeguooooo/chrome-use#464](https://github.com/leeguooooo/chrome-use/pull/464): fix(skills): remove unquoted colon in real-chrome frontmatter and add CI validator
 <!-- PR_FEED_END -->
 
 ---
